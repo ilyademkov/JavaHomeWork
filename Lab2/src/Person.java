@@ -1,3 +1,5 @@
+import java.util.Comparator;
+
 public class Person
 {
   private long RegistNumber;
@@ -63,4 +65,5 @@ public class Person
   {
     this.medal = medal;
   }
+  public static Comparator<Person> ByCountry() {return (o1, o2) -> o1.getCountry().compareTo(o2.getCountry()); }
 }
