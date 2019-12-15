@@ -8,7 +8,7 @@ public class Main
   {
     Sportsman sportsman = new Sportsman();
     Person person = new Person();
-    File fileOperator = new File();
+    FileLoader fileOperator = new FileLoader();
     Scanner in = new Scanner(System.in);
     int menu;
     String requiredCountry;
